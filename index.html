@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock - Multiple Time Zones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 WORLD CLOCK</h1>
+        <p class="subtitle">Current time across the globe</p>
+        
+        <div class="clocks-grid">
+            <div class="clock-card">
+                <div class="clock-header">New York</div>
+                <div class="clock-display">
+                    <div class="time" id="time-newyork">00:00:00</div>
+                    <div class="timezone">EST / EDT</div>
+                    <div class="date" id="date-newyork">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">London</div>
+                <div class="clock-display">
+                    <div class="time" id="time-london">00:00:00</div>
+                    <div class="timezone">GMT / BST</div>
+                    <div class="date" id="date-london">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">Paris</div>
+                <div class="clock-display">
+                    <div class="time" id="time-paris">00:00:00</div>
+                    <div class="timezone">CET / CEST</div>
+                    <div class="date" id="date-paris">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">Dubai</div>
+                <div class="clock-display">
+                    <div class="time" id="time-dubai">00:00:00</div>
+                    <div class="timezone">GST</div>
+                    <div class="date" id="date-dubai">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">Tokyo</div>
+                <div class="clock-display">
+                    <div class="time" id="time-tokyo">00:00:00</div>
+                    <div class="timezone">JST</div>
+                    <div class="date" id="date-tokyo">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">Sydney</div>
+                <div class="clock-display">
+                    <div class="time" id="time-sydney">00:00:00</div>
+                    <div class="timezone">AEDT / AEST</div>
+                    <div class="date" id="date-sydney">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">Singapore</div>
+                <div class="clock-display">
+                    <div class="time" id="time-singapore">00:00:00</div>
+                    <div class="timezone">SGT</div>
+                    <div class="date" id="date-singapore">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">Hong Kong</div>
+                <div class="clock-display">
+                    <div class="time" id="time-hongkong">00:00:00</div>
+                    <div class="timezone">HKT</div>
+                    <div class="date" id="date-hongkong">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">Los Angeles</div>
+                <div class="clock-display">
+                    <div class="time" id="time-losangeles">00:00:00</div>
+                    <div class="timezone">PST / PDT</div>
+                    <div class="date" id="date-losangeles">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">Toronto</div>
+                <div class="clock-display">
+                    <div class="time" id="time-toronto">00:00:00</div>
+                    <div class="timezone">EST / EDT</div>
+                    <div class="date" id="date-toronto">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">São Paulo</div>
+                <div class="clock-display">
+                    <div class="time" id="time-saopaulo">00:00:00</div>
+                    <div class="timezone">BRT / BRST</div>
+                    <div class="date" id="date-saopaulo">--</div>
+                </div>
+            </div>
+
+            <div class="clock-card">
+                <div class="clock-header">Mumbai</div>
+                <div class="clock-display">
+                    <div class="time" id="time-mumbai">00:00:00</div>
+                    <div class="timezone">IST</div>
+                    <div class="date" id="date-mumbai">--</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <p>🔄 Updates automatically every second</p>
+            <p>Displaying current local time for each city worldwide</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
